@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.autoclick"
+    android:largeHeap="true" >
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <service
+            android:name=".EndBtn_Service"
+            android:enabled="true"
+            android:exported="true"></service>
+        <service
+            android:name=".RecordService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".MainActivity"
+            android:theme="@style/AppTheme.Popup">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".screenCapture"
+            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar" />
+
+        <service
+            android:name=".FloatingView"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name=".AutoServiceNew"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/global_action_bar_service" />
+        </service>
+    </application>
+
+</manifest>
