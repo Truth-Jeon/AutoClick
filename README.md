@@ -1,5 +1,5 @@
 # 프로젝트 소개
-- JAVA언어로 당시 재직중인던 회사의 고객사인 COMMAX에서 솔루션을 요청한 WallPad 보일러 내장 앱인 AutoClicker를 1인 개발함.
+- JAVA로 당시 재직중인던 회사의 고객사인 COMMAX에서 솔루션을 요청한 WallPad 보일러 내장 앱인 AutoClicker를 1인 개발함.
 - AutoClicker 앱은 사용자가 클릭한 내용들을 녹화한 후, 녹화된 순서대로 자동으로 클릭시켜주는 앱임.
 
 # 프로젝트 개발환경
