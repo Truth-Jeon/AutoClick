@@ -1,5 +1,5 @@
 # 프로젝트 소개
-- COMMAX 보일러 WallPad 내장 네이티브 앱을 JAVA로 1인 개발함.
+- COMMAX 보일러 WallPad 내장 네이티브 앱을 JAVA로 팀장님 지휘하에 1인 개발함.
 - 사용자가 클릭한 내용들을 녹화한 후, 녹화된 순서대로 자동으로 클릭시켜주는 앱.
 
 # 프로젝트 개발환경
@@ -10,7 +10,7 @@
 - Framework : Android
   
 # 프로그래머 정보
-- 전하윤 (1인 개발) :
+- 전하윤 :
   1. JAVA를 활용한 안드로이드 앱 개발
   2. Accessibility Service로 접근성 권한 설정
   3. GestureDescription로 터치되는 곳의 좌표 위치 확인 및 터치스크롤 기능 설정
