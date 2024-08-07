@@ -11,8 +11,10 @@
   
 # 프로그래머 정보
 - 전하윤 :
-  1. JAVA를 활용한 안드로이드 앱 개발
-  2. Accessibility Service로 접근성 권한 설정
-  3. GestureDescription로 터치되는 곳의 좌표 위치 확인 및 터치스크롤 기능 설정
+  1. Android Accessibility Service로 사용자 인터페이스와 상호작용하는 자동화 서비스 제공. (서비스의 시작, 중지, 연결 상태 관리)
+  2. Handler 및  HandlerThread로 백그라운드 작업 스레드를 관리하여 작업을 스케줄링 및 실행.
+  3. GestureDescription.Builder와 Path를 사용하여 특정 위치에 터치이벤트를 생성.
   4. WindowManager를 통해 화면 최상층에 뷰 띄우기
-  5. Bitmap을 통한 캡쳐 이미지 저장
+  5. 화면 상의 뷰를 드래그하여 이동하는 기능 제공.
+  6. Bitmap을 통한 캡쳐 이미지 저장
+  7. 터치 이벤트의 좌표와 시간을 관리하는 TouchBean 클래스를 통해 데이터를 캡슐화.
